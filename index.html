@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.2"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8">
+    <title>TENSORFLOW</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+
+    </style>
+</head>
+<body>
+<center>
+<div class="main">
+
+    <p class="header-main-text">Handwritten digit recognition</p>
+    <canvas id="canvas"></canvas>
+
+    <div class="results-container">
+        <p id="prediction" size=20px>Prediction:</p>
+        <p id="confidence" size="20px">Confidence:</p>
+    </div>
+
+    <input class="button" type="button" id="btn" value="Guess Image"/>
+    <input class="button" type="button" id="clr" value="Clear Image"/>
+</div>
+
+</center>
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/drawing.js"></script>
+
+</body>
+</html>

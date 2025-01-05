@@ -1,0 +1,36 @@
+#prediction,#confidence{
+    font-size: xx-large;
+}
+body{
+    text-align: center;
+    align-content: center;
+    background: whitesmoke;
+}
+.main{
+
+    width: 70%;
+    text-align: center;
+}
+.header-main-text{
+
+    color:black;
+    font-size: xx-large;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+b{
+    color:rgb(166,169,171);
+}
+.button{
+    width: 20%;
+    height: 40px;
+    font-size: x-large;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:rgb(166,169,171);
+}
+.button:hover{
+    background:black    ;
+    cursor: pointer;
+}
+.button:visited{
+    border:solid 1px rgb(238,100,42);
+}
